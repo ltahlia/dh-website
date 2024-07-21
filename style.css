@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/hyperloop-background2.jpg);
+    
 }
 a { 
     color: inherit;
@@ -9,19 +9,19 @@ a {
     position: fixed;
     width: 100%;
     height: 100px;
-    background-color: #002f9b;
+    background-color: rgba(0, 47, 155,.7);
     padding: 0;
     color: white;
 }
 .bluloop{
-    background-color: #002f9b ;
+    background-color: rgba(0, 47, 155,0);
     font: oblique;
     font-weight: bold;
     font-style: oblique;
     margin-left: 40px;
     }
-.bluloop a.hover{
-    opacity: 67;    
+.bluloop a:hover{
+    opacity: .67;    
 }
 .links-to-pages{
     margin-left: 1140px;
