@@ -1,7 +1,43 @@
-* {
-    background-color: black;   
+body {
+    background-image: url(images/hyperloop-background2.jpg);
 }
-.Main_title{
-    text-align: center;
-    color: blue;
+a { 
+    color: inherit;
+    text-decoration: none;
+}
+.main-header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #002f9b;
+    padding: 0;
+    color: white;
+}
+.bluloop{
+    background-color: #002f9b ;
+    font: oblique;
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 40px;
+    }
+.bluloop a.hover{
+    opacity: 67;    
+}
+.links-to-pages{
+    margin-left: 1140px;
+    font-size: medium;
+    font-weight: normal;
+    font-style: normal;
+}
+.about-link{padding-right: 20px;}
+.team-link{padding-right: 20px;}
+.gallery-link{padding-right: 20px;}
+
+
+.header-sign{
+    font-weight: bold;
+    font: oblique;
+}
+.test{
+    font-size: 20px;
 }
