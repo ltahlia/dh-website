@@ -312,9 +312,6 @@ body {
     opacity: .4;
 }
 
-.ant h4{
-    color: black;
-}
 
 
 .about h1 {
@@ -413,10 +410,30 @@ body {
     justify-content: space-around;
 
 }
-.g-content{
-    color: #fff; 
-    padding-top: 20%;  
-    font-size: 55px; 
-    display: flex;
-    justify-content: center;
+.g-content {
+    background-color: #ffffff00;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center; /* Center the text and images */
 }
+
+.Working {
+    font-size: 60px;
+    color: #ffffff;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+.ClubF {
+    font-size: 60px;
+    color: #ffffff;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+img {
+    max-width: 20%; /* Make images responsive */
+    height: auto;    /* Maintain aspect ratio */
+    margin: 10px;    /* Space between images */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
